@@ -1,0 +1,98 @@
+package app;
+
+import datos.RegistroDatos;
+import datos.TemperaturaHora;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.util.Arrays;
+import java.util.List;
+
+public class Init {
+
+    public static List<RegistroDatos> getAll() {
+        return Arrays.asList(
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Estaca de Bares", "A Coruña",
+                        new TemperaturaHora(15.5f, LocalTime.parse("13:10")),
+                        new TemperaturaHora(13.0f, LocalTime.parse("21:40")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "As Pontes", "A Coruña",
+                        new TemperaturaHora(20.3f, LocalTime.parse("14:50")),
+                        new TemperaturaHora(7.0f, LocalTime.parse("07:30")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "A Coruña", "A Coruña",
+                        new TemperaturaHora(20.6f, LocalTime.parse("14:10")),
+                        new TemperaturaHora(11.1f, LocalTime.parse("08:30")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "A Coruña Aeropuerto", "A Coruña",
+                        new TemperaturaHora(21.5f, LocalTime.parse("15:10")),
+                        new TemperaturaHora(6.0f, LocalTime.parse("08:00")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Carballo, Depuradora", "A Coruña",
+                        new TemperaturaHora(22.2f, LocalTime.parse("16:20")),
+                        new TemperaturaHora(2.5f, LocalTime.parse("07:40")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Cabo Vilan", "A Coruña",
+                        new TemperaturaHora(17.9f, LocalTime.parse("12:30")),
+                        new TemperaturaHora(9.9f, LocalTime.parse("08:00")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Vimianzo", "A Coruña",
+                        new TemperaturaHora(19.5f, LocalTime.parse("15:40")),
+                        new TemperaturaHora(8.7f, LocalTime.parse("05:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Fisterra", "A Coruña",
+                        new TemperaturaHora(20.4f, LocalTime.parse("13:40")),
+                        new TemperaturaHora(12.5f, LocalTime.parse("02:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Mazaricos", "A Coruña",
+                        new TemperaturaHora(18.7f, LocalTime.parse("14:40")),
+                        new TemperaturaHora(7.4f, LocalTime.parse("08:10")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Sobrado", "A Coruña",
+                        new TemperaturaHora(18.1f, LocalTime.parse("14:50")),
+                        new TemperaturaHora(4.6f, LocalTime.parse("03:40")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Santiago de Compostela Aeropuerto", "A Coruña",
+                        new TemperaturaHora(19.6f, LocalTime.parse("16:00")),
+                        new TemperaturaHora(7.0f, LocalTime.parse("08:10")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Noia", "A Coruña",
+                        new TemperaturaHora(20.3f, LocalTime.parse("15:10")),
+                        new TemperaturaHora(10.1f, LocalTime.parse("08:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Boiro", "A Coruña",
+                        new TemperaturaHora(21.9f, LocalTime.parse("16:20")),
+                        new TemperaturaHora(7.9f, LocalTime.parse("08:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Padrón", "A Coruña",
+                        new TemperaturaHora(21.6f, LocalTime.parse("16:10")),
+                        new TemperaturaHora(7.0f, LocalTime.parse("07:50")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Santiago de Compostela", "A Coruña",
+                        new TemperaturaHora(21.4f, LocalTime.parse("16:20")),
+                        new TemperaturaHora(8.2f, LocalTime.parse("08:10")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Rois, Casas do Porto", "A Coruña",
+                        new TemperaturaHora(20.7f, LocalTime.parse("16:10")),
+                        new TemperaturaHora(9.4f, LocalTime.parse("07:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Villarrobledo", "Albacete",
+                        new TemperaturaHora(22.5f, LocalTime.parse("15:30")),
+                        new TemperaturaHora(8.5f, LocalTime.parse("01:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Munera", "Albacete",
+                        new TemperaturaHora(20.1f, LocalTime.parse("14:00")),
+                        new TemperaturaHora(3.1f, LocalTime.parse("01:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Yeste, Embalse Fuensanta", "Albacete",
+                        new TemperaturaHora(21.8f, LocalTime.parse("16:20")),
+                        new TemperaturaHora(12.8f, LocalTime.parse("23:59")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Nerpio", "Albacete",
+                        new TemperaturaHora(16.0f, LocalTime.parse("15:50")),
+                        new TemperaturaHora(3.9f, LocalTime.parse("04:40")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Yeste", "Albacete",
+                        new TemperaturaHora(20.2f, LocalTime.parse("15:50")),
+                        new TemperaturaHora(10.0f, LocalTime.parse("23:59")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Hellín", "Albacete",
+                        new TemperaturaHora(21.0f, LocalTime.parse("16:20")),
+                        new TemperaturaHora(13.2f, LocalTime.parse("07:50")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Tobarra", "Albacete",
+                        new TemperaturaHora(21.0f, LocalTime.parse("15:00")),
+                        new TemperaturaHora(13.2f, LocalTime.parse("07:50")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Albacete Base Aérea", "Albacete",
+                        new TemperaturaHora(20.2f, LocalTime.parse("15:10")),
+                        new TemperaturaHora(11.9f, LocalTime.parse("02:20")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Chinchilla", "Albacete",
+                        new TemperaturaHora(19.6f, LocalTime.parse("14:40")),
+                        new TemperaturaHora(9.8f, LocalTime.parse("03:40")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Albacete", "Albacete",
+                        new TemperaturaHora(21.6f, LocalTime.parse("14:30")),
+                        new TemperaturaHora(11.6f, LocalTime.parse("02:50")), 0f),
+                new RegistroDatos(LocalDate.of(2017, 10, 31), "Alcalá del Júcar", "Albacete",
+                        new TemperaturaHora(20.6f, LocalTime.parse("15:40")),
+                        new TemperaturaHora(9.0f, LocalTime.parse("05:20")), 0f));
+    }
+
+}
