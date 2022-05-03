@@ -18,7 +18,7 @@ public class ServicioClimatologia {
     public ServicioClimatologia(List<RegistroDatos> datos) {
         this.datos = datos;
     }
-
+//
     /*
      * Método que devuelve las temperaturas máximas agrupadas por provincia
      */
