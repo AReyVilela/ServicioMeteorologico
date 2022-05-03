@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 public class ServicioClimatologia {
     List<RegistroDatos> datos;
-
+//porbando cambios paa hacer commit
     public ServicioClimatologia(List<RegistroDatos> datos) {
         this.datos = datos;
     }

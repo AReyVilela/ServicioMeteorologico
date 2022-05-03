@@ -18,7 +18,7 @@ public class Main {
         //Creo una instancia que carga los datos
       servicio = new ServicioClimatologia(Init.getAll());
         imprimirInformeMeteorologico();
-
+//para probar el comit como hago ?
 
 
     }
